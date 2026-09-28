@@ -7,6 +7,10 @@ using System.Collections.Generic;
 
 Console.WriteLine("CPEN223 Lab 3");
 
+bool actual = SensorAnalyzer.IsUsableReading(21.5, 0.0, 50.0);
+Console.WriteLine($"Expected: True, Actual: {actual}");
+
+
 //Testing: Write some test cases to test well all methods you are to implement    
 //         This is to demonstrates what test cases you have considered
 //TODO 
